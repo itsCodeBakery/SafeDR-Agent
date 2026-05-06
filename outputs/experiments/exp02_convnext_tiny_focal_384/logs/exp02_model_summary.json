@@ -1,0 +1,17 @@
+{
+    "experiment_id": "exp02_convnext_tiny_focal_384",
+    "model_name": "ConvNeXt-Tiny",
+    "input_resolution": "384x384",
+    "num_classes": 5,
+    "total_parameters": 27823973,
+    "trainable_parameters": 27823973,
+    "loss_function": "Weighted Focal Loss",
+    "focal_gamma": 2.0,
+    "optimizer": "AdamW",
+    "learning_rate": 3e-05,
+    "weight_decay": 0.0001,
+    "scheduler": "CosineAnnealingWarmRestarts",
+    "batch_size": 16,
+    "novelty_boundary": "ConvNeXt-Tiny and focal loss are not claimed as standalone novelty. They are used to improve the perception module. The main novelty remains the SafeDR-Agent safety policy integrating uncertainty, image quality, abstention, clinician review, and referral routing.",
+    "created_at": "2026-05-06 04:44:56"
+}
