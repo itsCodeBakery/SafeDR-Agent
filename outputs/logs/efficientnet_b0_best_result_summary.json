@@ -1,0 +1,14 @@
+{
+    "best_epoch": 6,
+    "best_validation_macro_f1": 0.6610910216407113,
+    "best_validation_accuracy": 0.8051001821493625,
+    "best_validation_precision": 0.6533816681013312,
+    "best_validation_recall": 0.6895635962629219,
+    "figure_files": [
+        "efficientnet_b0_loss_curve.png",
+        "efficientnet_b0_accuracy_curve.png",
+        "efficientnet_b0_macro_f1_curve.png",
+        "efficientnet_b0_precision_recall_curve.png"
+    ],
+    "created_at": "2026-05-06 04:37:54"
+}
