@@ -1,0 +1,6 @@
+{
+    "baseline_problem": "Exp01 showed limited macro-F1, suggesting weak minority-class learning with EfficientNet-B0 and weighted cross-entropy.",
+    "exp02_upgrade": "Exp02 uses a stronger ConvNeXt-Tiny backbone, larger 384x384 images, and weighted focal loss to improve hard minority-class learning.",
+    "mathematical_objective": "Minimize weighted focal loss over five DR classes.",
+    "main_novelty_protected": "The novelty is not the backbone. The novelty is the later SafeDR-Agent policy that transforms classification outputs into safety-aware clinical actions."
+}
