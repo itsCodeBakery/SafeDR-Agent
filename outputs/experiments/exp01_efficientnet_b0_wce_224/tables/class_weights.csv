@@ -1,0 +1,6 @@
+class_index,class_name,train_count,class_weight
+0,Mild,259,1.9791505
+1,Moderate,699,0.73333335
+2,No_DR,1263,0.40585905
+3,Proliferate_DR,207,2.4763286
+4,Severe,135,3.7970371

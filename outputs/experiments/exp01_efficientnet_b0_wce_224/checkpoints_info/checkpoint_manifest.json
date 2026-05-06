@@ -1,0 +1,8 @@
+{
+    "note": "Checkpoint files are not copied to GitHub because .pth files are ignored by .gitignore.",
+    "best_checkpoint_local_path": "/kaggle/working/SafeDR-Agent/outputs/checkpoints/best_efficientnet_b0.pth",
+    "last_checkpoint_local_path": "/kaggle/working/SafeDR-Agent/outputs/checkpoints/last_efficientnet_b0.pth",
+    "best_checkpoint_exists": true,
+    "last_checkpoint_exists": true,
+    "recommendation": "For permanent storage, upload checkpoints as a Kaggle Dataset or GitHub Release artifact."
+}

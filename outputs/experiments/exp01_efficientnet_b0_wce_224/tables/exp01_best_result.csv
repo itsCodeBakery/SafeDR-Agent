@@ -1,0 +1,2 @@
+experiment,model,image_size,loss,best_epoch,best_validation_accuracy,best_validation_macro_f1,best_validation_macro_precision,best_validation_macro_recall
+exp01_efficientnet_b0_wce_224,EfficientNet-B0,224x224,Weighted Cross-Entropy,6,0.8051001821493625,0.6610910216407113,0.6533816681013312,0.6895635962629219

@@ -1,0 +1,24 @@
+{
+    "experiment_id": "exp01_efficientnet_b0_wce_224",
+    "experiment_name": "EfficientNet-B0 with Weighted Cross-Entropy at 224x224",
+    "role_in_paper": "Baseline experiment",
+    "model": "EfficientNet-B0",
+    "input_resolution": "224x224",
+    "loss_function": "Weighted Cross-Entropy",
+    "optimizer": "AdamW",
+    "best_epoch": 6,
+    "best_validation_accuracy": 0.8051001821493625,
+    "best_validation_macro_f1": 0.6610910216407113,
+    "best_validation_macro_precision": 0.6533816681013312,
+    "best_validation_macro_recall": 0.6895635962629219,
+    "interpretation": "The baseline achieved moderate validation accuracy but weak macro-F1, indicating insufficient minority-class recognition. This supports the need for a stronger perception model and safety-aware abstention/referral policy.",
+    "novelty_connection": "This baseline motivates SafeDR-Agent by showing that ordinary weighted classification does not provide sufficient clinically reliable performance under class imbalance.",
+    "created_at": "2026-05-06 04:40:01",
+    "copied_files": {
+        "training_history": "/kaggle/working/SafeDR-Agent/outputs/experiments/exp01_efficientnet_b0_wce_224/tables/training_history_efficientnet_b0.csv",
+        "training_summary": "/kaggle/working/SafeDR-Agent/outputs/experiments/exp01_efficientnet_b0_wce_224/logs/training_summary_efficientnet_b0.json",
+        "model_summary": "/kaggle/working/SafeDR-Agent/outputs/experiments/exp01_efficientnet_b0_wce_224/logs/model_summary_efficientnet_b0.json",
+        "class_weights": "/kaggle/working/SafeDR-Agent/outputs/experiments/exp01_efficientnet_b0_wce_224/tables/class_weights.csv"
+    },
+    "checkpoint_manifest": "/kaggle/working/SafeDR-Agent/outputs/experiments/exp01_efficientnet_b0_wce_224/checkpoints_info/checkpoint_manifest.json"
+}
