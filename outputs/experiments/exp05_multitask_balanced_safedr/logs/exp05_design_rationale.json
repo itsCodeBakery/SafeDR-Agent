@@ -1,0 +1,6 @@
+{
+    "why_exp05": "Exp04 achieved high accepted-case accuracy but limited accepted macro-F1. This suggests that the model requires stronger minority-class and clinical-risk learning.",
+    "methodological_change": "Exp05 introduces multi-task learning with grade, referable-risk, and urgent-risk heads, plus class-balanced sampling.",
+    "novelty_protection": "The novelty is not the backbone. The novelty is aligning model training with the downstream SafeDR-Agent routing decisions.",
+    "loss_function": "L_total = L_grade + lambda_1 L_referable + lambda_2 L_urgent"
+}
