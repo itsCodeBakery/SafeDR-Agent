@@ -1,0 +1,20 @@
+{
+    "tau_confidence": 0.8,
+    "tau_entropy": 0.6303,
+    "total_cases": 549.0,
+    "accepted_cases": 261.0,
+    "reviewed_cases": 288.0,
+    "acceptance_rate": 0.47540983606557374,
+    "review_rate": 0.5245901639344263,
+    "total_errors": 96.0,
+    "reviewed_errors": 95.0,
+    "accepted_errors": 1.0,
+    "error_capture_rate": 0.9895833333333334,
+    "accepted_accuracy": 0.9961685823754789,
+    "accepted_macro_f1": 0.982174688057041,
+    "missed_referable": 1.0,
+    "missed_referable_rate": 0.004484304932735426,
+    "missed_urgent": 0.0,
+    "missed_urgent_rate": 0.0,
+    "selection_score": 0.7899759696700328
+}

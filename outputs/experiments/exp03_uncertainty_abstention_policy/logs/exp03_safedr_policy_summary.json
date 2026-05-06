@@ -1,0 +1,16 @@
+{
+    "experiment_id": "exp03_uncertainty_abstention_policy",
+    "recommended_tau_confidence": 0.8,
+    "recommended_tau_entropy": 0.6303,
+    "accepted_accuracy": 0.9961685823754789,
+    "accepted_macro_f1": 0.982174688057041,
+    "acceptance_rate": 0.47540983606557374,
+    "review_rate": 0.5245901639344263,
+    "error_capture_rate": 0.9895833333333334,
+    "missed_referable": 1,
+    "missed_referable_rate": 0.004484304932735426,
+    "missed_urgent": 0,
+    "missed_urgent_rate": 0.0,
+    "novelty_claim": "SafeDR-Agent converts classifier predictions into uncertainty-aware clinical actions using confidence, entropy, abstention, clinician review, and referral routing.",
+    "created_at": "2026-05-06 05:42:59"
+}
