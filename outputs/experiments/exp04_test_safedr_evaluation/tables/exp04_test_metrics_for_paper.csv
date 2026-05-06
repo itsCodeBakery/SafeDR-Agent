@@ -1,0 +1,10 @@
+Metric,Value
+Full Test Accuracy Without Abstention,0.8163636363636364
+Full Test Macro-F1 Without Abstention,0.6838931200313567
+Accepted Test Accuracy,0.9716312056737588
+Accepted Test Macro-F1,0.9006261987323605
+Acceptance Rate,0.5127272727272727
+Review Rate,0.48727272727272725
+Error Capture Rate,0.9207920792079208
+Missed Referable Rate,0.03139013452914798
+Missed Urgent Rate,0.0
