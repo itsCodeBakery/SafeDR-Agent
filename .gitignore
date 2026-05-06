@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Kaggle and data
+/kaggle/
+data/raw/
+*.zip
+*.tar
+*.gz
+
+# Large model files
+*.pt
+*.pth
+*.ckpt
+*.onnx
+
+# Temporary
+tmp/
+temp/
+.DS_Store
+
+# Secrets
+.env
+secrets.json

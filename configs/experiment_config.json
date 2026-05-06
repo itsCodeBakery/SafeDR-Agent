@@ -1,0 +1,30 @@
+{
+    "project_name": "SafeDR-Agent",
+    "seed": 42,
+    "device": "cuda",
+    "dataset_name": "Diabetic Retinopathy 224x224 2019 Data",
+    "kaggle_dataset_slug": "sovitrath/diabetic-retinopathy-224x224-2019-data",
+    "image_size": 224,
+    "num_classes": 5,
+    "class_names": [
+        "No_DR",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Proliferate_DR"
+    ],
+    "model_backbone": "efficientnet_b0",
+    "batch_size": 32,
+    "epochs_initial": 10,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "validation_split": 0.15,
+    "test_split": 0.15,
+    "main_novelty": [
+        "uncertainty-aware abstention",
+        "image-quality-aware decision routing",
+        "clinician-in-the-loop referral policy",
+        "safety-aware evaluation metrics"
+    ],
+    "created_at": "2026-05-06 04:14:30"
+}
