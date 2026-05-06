@@ -18,6 +18,6 @@ Kaggle dataset:
 
 `sovitrath/diabetic-retinopathy-224x224-2019-data`
 
-## Project Status
+## Repository Status
 
-Initialized from Kaggle on 2026-05-06 04:13:54.
+This repository is synchronized from Kaggle for reproducible experimentation.

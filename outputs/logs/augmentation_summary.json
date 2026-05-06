@@ -1,0 +1,19 @@
+{
+    "image_size": 224,
+    "augmentations": {
+        "resize": [
+            224,
+            224
+        ],
+        "random_horizontal_flip_probability": 0.5,
+        "random_vertical_flip_probability": 0.2,
+        "random_rotation_degrees": 15,
+        "color_jitter": {
+            "brightness": 0.15,
+            "contrast": 0.15,
+            "saturation": 0.1,
+            "hue": 0.02
+        }
+    },
+    "safety_note": "Augmentations are intentionally mild to avoid unrealistic retinal distortions. This supports the SafeDR-Agent objective of clinically aligned decision support."
+}

@@ -1,0 +1,9 @@
+{
+    "train_batches": 81,
+    "validation_batches": 18,
+    "test_batches": 18,
+    "batch_size": 32,
+    "image_size": 224,
+    "num_classes": 5,
+    "device": "cuda"
+}
