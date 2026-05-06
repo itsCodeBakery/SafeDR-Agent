@@ -1,0 +1,11 @@
+{
+    "experiment_id": "exp03_uncertainty_abstention_policy",
+    "source_checkpoint": "/kaggle/working/SafeDR-Agent/outputs/experiments/exp02_convnext_tiny_focal_384/checkpoints/best_convnext_tiny_focal_384.pth",
+    "base_validation_accuracy_without_abstention": 0.825136612021858,
+    "base_validation_macro_f1_without_abstention": 0.6914798843679881,
+    "base_validation_macro_precision_without_abstention": 0.7012556201284065,
+    "base_validation_macro_recall_without_abstention": 0.7125957038253767,
+    "mean_confidence": 0.7621277083790368,
+    "mean_entropy": 0.6230298058148508,
+    "created_at": "2026-05-06 05:41:10"
+}
